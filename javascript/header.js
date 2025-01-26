@@ -7,9 +7,9 @@ function loadHeader() {
                     <div class="Perfil">
                         <img src="imagenes/imagen_perfil.jpeg" alt="Imagen Perfil" />
                     </div>
-                    <h1><em><strong>
+                    <h1><em>
                         Marcela Suazo
-                    </h1></em></strong>
+                    </h1></em>
                 </div>
                 <ul class="menu-izquierda">
                     <li><a href="index.html">Inicio</a></li>
