@@ -16,3 +16,69 @@ body {
     padding:0px;
     font-size: 1.2rem;
 }
+
+@media (min-width:1024px){
+    
+    /*INICIO*/
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Alinea los elementos a ambos extremos */
+        padding: 1rem;
+        background-color: #88A795;
+    }
+    
+    header h1 {
+        margin: 0px;
+        padding: 0.5rem;
+        font-size: 2rem;
+        font-weight: normal;
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Asegura que el contenido se distribuya entre los dos extremos */
+        width: 100%;
+    }
+    
+    header .left-container {
+        display: flex;
+        align-items: center; /* Alinea la imagen y el título verticalmente */
+    }
+    
+    header .Perfil {
+        margin-right: 1rem; /* Espacio entre la imagen y el título */
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+    
+    header nav .Perfil img {
+        width: 50px; 
+        height: 50px; 
+        border-radius: 50%;
+        object-fit: cover; 
+    }
+    
+    header nav ul li a {
+        display: block;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        color: black;
+        transition: background-color 1s ease;
+    }
+    
+    header nav ul li a:hover {
+        background-color: #dab1d4;
+        color: #333;
+    }
+    
+}
