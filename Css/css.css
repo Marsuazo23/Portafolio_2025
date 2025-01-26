@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Times New Roman', Arial, sans-serif;
-    background-color: #E0D5BE;
+    background-color: whitesmoke;
     color: black;
     margin:0px;
     padding:0px;
@@ -19,13 +19,50 @@ body {
 
 @media (min-width:1024px){
     
+    /*BARRA LATERAL*/
+    .redes-barra {
+        position: fixed;
+        top: 50%; /* Centra verticalmente */
+        left: 0;
+        height: 35%;
+        width: 60px; 
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px; /* Espacio superior */
+        transform: translateY(-50%); /* Mueve la barra hacia arriba la mitad de su altura */
+    }    
+    
+    .redes-barra ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .redes-barra ul li {
+        margin-bottom: 20px; 
+    }
+    
+    .redes-barra ul li a img {
+        width: 35px; /* Tamaño de los íconos */
+        height: 35px;
+        transition: transform 0.3s ease;
+    }
+    
+    .redes-barra ul li a img:hover {
+        transform: scale(1.4); /* Efecto de aumento al pasar el ratón */
+    }
+    
+
     /*INICIO*/
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between; /* Alinea los elementos a ambos extremos */
+        justify-content: space-between; 
         padding: 1rem;
-        background-color: #88A795;
+        background-color: lightblue;
     }
     
     header h1 {
@@ -40,17 +77,14 @@ body {
     header nav {
         display: flex;
         align-items: center;
-        justify-content: space-between; /* Asegura que el contenido se distribuya entre los dos extremos */
+        justify-content: space-between; 
         width: 100%;
     }
     
-    header .left-container {
+    header .perfil-contenedor {
         display: flex;
-        align-items: center; /* Alinea la imagen y el título verticalmente */
-    }
-    
-    header .Perfil {
-        margin-right: 1rem; /* Espacio entre la imagen y el título */
+        align-items: center; 
+        margin-left: 2rem;
     }
     
     header nav ul {
@@ -79,6 +113,23 @@ body {
     header nav ul li a:hover {
         background-color: #dab1d4;
         color: #333;
-    }
+    }    
+
     
+    /*FOOTER*/
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: lightblue;
+        padding: 3.5px;
+        margin-top: 31rem;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+        flex: 1; 
+    }
 }
