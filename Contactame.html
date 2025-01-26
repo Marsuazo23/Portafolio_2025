@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bunns flowers</title>
+        <link rel="stylesheet" href="Css/css.css" />
+        <script src="javascript/validaciones.js"></script>
+    </head>
+
+    <body>
+        <div class="redes-barra">
+            <ul>
+                <li><a href="https://wa.me/32846366" target="_blank"><img src="imagenes/icono_whatsapp.png" alt="Whatsapp" /></a></li>
+                <li><a href="https://www.instagram.com/mahily20164?igsh=MW9tbDJuOGRlam1uaw==" target="_blank"><img src="imagenes/icono_instagram.png" alt="Instagram" /></a></li>
+                <li><a href="https://youtube.com/@mahilysuazo7039?si=uOmg4zeongg6WLxd" target="_blank"><img src="imagenes/icono_youtube.png" alt="Youtube" /></a></li>
+                <li><a href="https://github.com/Marsuazo23?tab=overview&from=2024-12-01&to=2024-12-31" target="_blank"><img src="imagenes/icono_github.png" alt="Github" /></a></li>
+            </ul>
+        </div>
+
+        <div id="header-container"></div> 
+
+        <script src="javascript/header.js"></script>
+        <script>
+            loadHeader(); //llamar la función
+        </script>
+        
+        <main>
+
+            <div class="panel-texto1">
+                <h2>CONTACTAME</h2>
+            </div>
+
+            <div class="panel-texto2">
+                <p>Si tienes alguna pregunta, ¡no dudes en enviarme el formulario abajo y te responderé lo más rápido posible!</p>
+            </div>
+
+            <div class="panel-form">
+                 <form action="Contactos.html" method="GET">
+                    <div class="form-row">
+                        <div class="form-group">
+                             <label for="txtNombre">Nombre:</label>
+                            <input id="txtNombre" type="text" placeholder="Nombre Completo"/>
+                            </div>
+                            <div class="form-group">
+                            <label for="txtApellido">Apellido:</label>
+                            <input id="txtApellido" type="text" placeholder="Apellido Completo"/>
+                        </div>
+                    </div>
+                        
+                    <div class="form-group">
+                        <label for="txtEmail">Email:</label>
+                        <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorreo@electronico.com"/>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="txtTeléfono">Número de teléfono:</label>
+                        <input id="txtTeléfono" type="text" placeholder="Número de teléfono"/>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="txtComentarios">Comentarios:</label>
+                        <textarea id="txtComentarios" name="txtBio" placeholder="Tu comentario"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" name="btnEnviar" class="btn-enviar">Enviar</button>
+                    </div>
+
+                    </form>
+                </div>  
+        </main>
+
+        <footer>
+            <p>2025 © Marcela Suazo</p>
+        </footer>   
+
+    </body>
+</html>
