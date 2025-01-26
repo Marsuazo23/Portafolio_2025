@@ -3,7 +3,7 @@ function loadHeader() {
     const headerHTML = `
         <header>
             <nav>
-                <div class="left-container">
+                <div class="perfil-contenedor">
                     <div class="Perfil">
                         <img src="imagenes/imagen_perfil.jpeg" alt="Imagen Perfil" />
                     </div>
