@@ -9,7 +9,7 @@ function loadHeader() {
                     </h1></em>
                 </div>
                 <ul class="menu-izquierda">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Sobre mí</a></li>
                     <li><a href="Proyectos.html">Proyectos</a></li>
                     <li><a href="Contactame.html">Contáctame</a></li>
                 </ul>
