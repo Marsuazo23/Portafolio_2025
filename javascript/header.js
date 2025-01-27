@@ -5,7 +5,7 @@ function loadHeader() {
             <nav>
                 <div class="perfil-contenedor">
                     <div class="Perfil">
-                        <img src="imagenes/imagen_perfil.jpeg" alt="Imagen Perfil" />
+                        <img src="imagenes/imagen_perfil.JPG" alt="Imagen Perfil" />
                     </div>
                     <h1><em>
                         Marcela Suazo
