@@ -26,7 +26,6 @@ main {
   }
 
 @media (min-width:1024px){
-    
     /*BARRA LATERAL*/
     .redes-barra {
         position: fixed;
@@ -64,7 +63,7 @@ main {
     }
     
 
-    /*INICIO*/
+    /*SOBRE MÍ*/
     header {
         display: flex;
         align-items: center;
@@ -335,5 +334,51 @@ main {
     textarea {
         resize: none; 
         height: 4rem; 
+    }
+}
+
+@media (max-width:1284px){
+    /*SOBRE MÍ*/
+    .panel-texto3 h2 {
+        transform: translateX(-48%) translateY(-400%); 
+    }
+
+    .perfil-imagen {
+        margin: 250px auto; 
+    }    
+
+    .panel-texto4 {
+        transform: translateX(-50%) translateY(40%); 
+    }
+
+    .cuadrante1 {
+        transform: translateX(170%) translateY(480%); 
+    }
+
+    .cuadrante1 h2{
+        font-weight: normal; 
+    }
+    
+    .cuadrante1 h2 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .cuadrante1 h2 a:hover {
+        text-decoration: underline; 
+    }
+
+    /*PROYECTOS*/
+    .panel-texto6 {
+        transform: translateX(-50%) translateY(-40%); 
+    }
+
+    .panel-proyectos {
+        display: flex; 
+        gap: 5rem; 
+    }
+
+    .card2 {
+        transform: translateX(110%) translateY(100%);
     }
 }
