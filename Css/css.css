@@ -187,6 +187,68 @@ main {
         text-decoration: underline; 
     }
 
+
+    /*PROYECTOS*/
+    .panel-texto5 h2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-48%) translateY(-400%); 
+        font-size: 2.5rem; 
+        color: black; 
+        text-align: center; 
+        width: 50rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .panel-texto6 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-50%) translateY(-70%); 
+        font-size: 1.3rem; 
+        color: black; 
+        text-align: center; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .panel-proyectos {
+        display: flex; 
+        gap: 5rem; 
+    }
+
+    .card2 {
+        border: 1px solid black;
+        position: relative;
+        width: 300px;
+        height: 30rem;
+        overflow: hidden;
+        background-color: #ceb5d9;
+        border-radius: 13px;
+        transform: translateX(110%) translateY(60%);
+        margin-bottom: 2.6rem;
+ 
+    }
+
+    .card2 img {
+        width: 100%;
+        height: 200px;
+        object-position: center center;
+        background-color: #ceb5d9;
+    }
+
+    .card2 h3, .card2 p {
+        margin: 0px;
+        padding: 0.5rem;
+    }
+
+    .card2 p {
+        font-size: 1rem;
+    }
+
+
     /*FOOTER*/
     footer {
         align-items: center;
