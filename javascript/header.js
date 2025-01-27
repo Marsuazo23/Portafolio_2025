@@ -4,16 +4,13 @@ function loadHeader() {
         <header>
             <nav>
                 <div class="perfil-contenedor">
-                    <div class="Perfil">
-                        <img src="imagenes/imagen_perfil.JPG" alt="Imagen Perfil" />
-                    </div>
                     <h1><em>
                         Marcela Suazo
                     </h1></em>
                 </div>
                 <ul class="menu-izquierda">
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="SobreMi.html">Sobre mí</a></li>
+                    <li><a href="Sobre.html">Sobre mí</a></li>
                     <li><a href="Proyectos.html">Proyectos</a></li>
                     <li><a href="Contactame.html">Contáctame</a></li>
                 </ul>
