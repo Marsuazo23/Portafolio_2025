@@ -78,7 +78,7 @@ main {
         padding: 0.5rem;
         font-size: 2rem;
         font-weight: normal;
-        margin-left: 1rem;
+        margin-left: 2rem;
         margin-right: 2rem;
         font-weight: bold;
     }
@@ -90,25 +90,12 @@ main {
         width: 100%;
     }
     
-    header .perfil-contenedor {
-        display: flex;
-        align-items: center; 
-        margin-left: 2rem;
-    }
-    
     header nav ul {
         display: flex;
         list-style: none;
         margin: 0px;
         padding: 0px;
         align-items: center;
-    }
-    
-    header nav .Perfil img {
-        width: 60px; 
-        height: 60px; 
-        border-radius: 50%;
-        object-fit: cover; 
     }
     
     header nav ul li a {
