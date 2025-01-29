@@ -145,7 +145,6 @@ main {
     }
 
     .cuadrante1 {
-        position: relative; 
         background-color: lightblue;
         text-align: center;
         height: 65px; 
@@ -156,8 +155,7 @@ main {
         font-size: 0.8rem;
         box-sizing: border-box;
         display: flex;
-        right: 68%; 
-        top: -12%;
+        transform: translateX(45%) translateY(290%); 
     }
 
     .cuadrante1 h2{
@@ -209,8 +207,9 @@ main {
         background-color: lightblue;
         border-radius: 13px;
         margin-bottom: 2.6rem;
-        width: 300px;
-        height: 15rem;
+        width: 250px;
+        height: 248px;
+        transform: translateX(130%) translateY(100%);  
     }
 
     .card2 img {
@@ -334,6 +333,303 @@ main {
 
 
 @media (min-width:720px){
+    /*BARRA LATERAL*/
+    .redes-barra {
+        position: fixed;
+        top: 50%; 
+        left: 0;
+        height: 30%;
+        width: 60px; 
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px; 
+        transform: translateY(-50%); 
+    }    
+    
+    .redes-barra ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .redes-barra ul li {
+        margin-bottom: 20px; 
+    }
+    
+    .redes-barra ul li a img {
+        width: 35px; 
+        height: 35px;
+        transition: transform 0.3s ease;
+    }
+    
+    .redes-barra ul li a img:hover {
+        transform: scale(1.4); 
+    }
+
+    /*SOBRE MÍ*/
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 1.5rem;
+        background-color: lightblue;
+    }
+    
+    header h1 {
+        margin: 0px;
+        padding: 0.5rem;
+        font-size: 2rem;
+        font-weight: normal;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-weight: bold;
+    }
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        width: 100%;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+    
+    header nav ul li a {
+        display: block;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        color: black;
+        transition: background-color 1s ease;
+    }
+    
+    header nav ul li a:hover {
+        background-color: #dab1d4;
+        color: #333;
+    }    
+
+    .panel-texto3 h2 {
+        position: absolute; 
+        top: 35%; 
+        left: 50%; 
+        font-size: 2.5rem; 
+        color: black; 
+        text-align: center; 
+        width: 45rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .perfil-imagen {
+        width: 350px;  
+        height: 350px; 
+        border-radius: 50%;  
+        object-fit: cover;  
+        display: block;
+        margin: 145px auto; 
+        border: 5px solid lightblue; 
+    }    
+
+    .panel-texto4 {
+        position: absolute; 
+        top: 35%; 
+        left: 50%; 
+        color: black; 
+        text-align: center; 
+        width: 40rem;
+        line-height: 2.5;
+        font-size: 1.8rem;
+    }
+
+    .cuadrante1 {
+        background-color: lightblue;
+        text-align: center;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        box-sizing: border-box;
+        display: flex;
+        transform: translateX(88%) translateY(950%); 
+    }
+
+    .cuadrante1 h2{
+        font-weight: normal; 
+    }
+    
+    .cuadrante1 h2 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .cuadrante1 h2 a:hover {
+        text-decoration: underline; 
+    }
+
+    /*PROYECTOS*/
+    .panel-texto5 h2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-48%) translateY(-790%); 
+        font-size: 2.5rem; 
+        color: black; 
+        text-align: center; 
+        width: 40rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .panel-texto6 {
+        position: absolute; 
+        top: 35%; 
+        left: 50%; 
+        font-size: 1.3rem; 
+        color: black; 
+        text-align: center; 
+        width: 40rem;
+        line-height: 2.5;
+    }
+
+    .panel-proyectos {
+        gap: 5rem; 
+    }
+
+    .card2 {
+        border: 1px solid black;
+        width: 300px;
+        overflow: hidden;
+        background-color: lightblue;
+        border-radius: 13px;
+        margin-bottom: 8rem; 
+        transform: translateX(85%) translateY(100%); 
+        font-size: 1.5rem;
+    }
+
+    .card2 img {
+        width: 100%;
+        height: 200px;
+        object-position: center center;
+        background-color: lightblue;
+    }
+
+    .card2 h3, .card2 p {
+        margin: 0px;
+        padding: 0.5rem;
+    }
+
+    .card2 p {
+        font-size: 1rem;
+    }
+
+    /*CONTACTAME*/
+    .panel-texto1 h2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-48%) translateY(-770%); 
+        font-size: 2.5rem; 
+        color: black; 
+        text-align: center; 
+        width: 48rem;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .panel-texto2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-48%) translateY(-155%); 
+        font-size: 1.3rem; 
+        color: black; 
+        text-align: center; 
+        width: 43rem;
+        line-height: 2.5;
+    }
+
+    .btn-enviar {
+        background-color: lightblue; 
+        color: black;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        border: 2px solid black;
+    }
+
+    .btn-enviar:hover {
+        background-color: lightblue; 
+    }
+
+    .panel-form {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-48%) translateY(-70%);
+        font-size: 2rem;
+        color: black;
+        line-height: 1;
+        font-weight: normal;
+        text-align: left;
+        width: 50%; 
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .form-group {
+        flex: 1;
+        margin-bottom: 2rem;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 10px; 
+        border: 2px solid black;
+        box-sizing: border-box;
+        background-color: lightblue;
+    }
+
+    textarea {
+        resize: none; 
+        height: 4rem; 
+    }
+
+    /*FOOTER*/
+    footer {
+        align-items: center;
+        background-color: lightblue;
+        padding: 4px;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+    }
 }
 
 
@@ -665,7 +961,7 @@ main {
     }
 
     .cuadrante1 {
-        transform: translateX(170%) translateY(480%); 
+        right: 4%; 
     }
 
     .cuadrante1 h2{
@@ -687,6 +983,6 @@ main {
     }
 
     .card2 {
-        transform: translateX(110%) translateY(100%);
+        top: 160px;
     }
 }
